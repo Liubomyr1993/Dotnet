@@ -9,5 +9,7 @@ namespace Dotnet.models
         public string LastName { get; set; }
 
         public string BirthDay { get; set; }
+
+        public bool IsDeleted { get; set; } = false;
     }
 }
